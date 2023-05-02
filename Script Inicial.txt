@@ -1,0 +1,13 @@
+
+
+CREATE TABLE Funcionarios
+(ID_RH int primary key auto_increment,
+Nome VARCHAR(10),
+Sexo VARCHAR(1),
+Data_Nascimento Date,
+Endereco VARCHAR(50),
+Data_Contratacao date,
+Data_Demissao date,
+Salario DOUBLE
+);
+
